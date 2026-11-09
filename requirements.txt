@@ -1,0 +1,3 @@
+from django.views.generic import RedirectView
+
+path('', RedirectView.as_view(pattern_name='web_lista_cursos')),
